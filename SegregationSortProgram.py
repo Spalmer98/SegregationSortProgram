@@ -130,7 +130,7 @@ def main():
     array = read()
 
     # Displays the results of the sorting program
-    print(f"\n{sort(array)}\n") 
+    print(f"\n{sort(array)}") 
 
 def test_cases():
     '''
@@ -189,5 +189,6 @@ def test_cases():
 
 
 if __name__ == "__main__":
-    # main()
-    test_cases()
+    main()
+    # test_cases()
+    print()
